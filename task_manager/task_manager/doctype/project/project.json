@@ -1,0 +1,17 @@
+{
+  "name": "Project",
+  "fields": [
+    {
+      "fieldname": "project_name",
+      "label": "Project Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "tasks",
+      "label": "Tasks",
+      "fieldtype": "Table",
+      "options": "Task"
+    }
+  ]
+}
